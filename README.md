@@ -5,7 +5,7 @@ Python script to sync your github fork to its parent repository.
 
 ## Installation
 
-* Download the script [here](https://github.com/imagentleman/github-sync-fork-script/archive/master.zip).
+* Clone the repository.
 * Put the script gsync.py on your path. In Windows you would probably place it on the root of your python folder (which in most cases is already in the path), somewhere like `C:\Python27`. That way the script would be callable from any folder.
 
 ## Usage
