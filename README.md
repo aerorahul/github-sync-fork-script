@@ -10,8 +10,24 @@ Python script to sync your github fork to its parent repository.
 
 ## Usage
 
-* Clone your repo and cd into its folder.
+* Clone your repo and cd into its folder. Copy `gsync.py` to a folder in your `PATH` e.g. `$HOME/bin`.
+
 * Run gsync.py
+```
+$> gsync.py --help
+usage: gsync.py [-h] [-b BRANCH] [-p {git,html}]
+
+Run a bunch of boilerplate commands to sync your local clone to its parent
+github repo.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b BRANCH, --branch BRANCH
+                        name of the branch to sync (default: master)
+  -p {git,html}, --protocol {git,html}
+                        git protocol to use (default: html)
+```
+
 * Cake
 
 The Script has some basic error handling. It will catch if the repo is not a fork (in that case there won't be anything to sync), if you are not in the folder of a git repo, etc.
