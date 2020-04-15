@@ -15,7 +15,7 @@ if __name__ == '__main__':
     parser = ArgumentParser(
         description=(
             "Run a bunch of boilerplate commands"
-            "to sync your local clone to its parent github repo."
+            " to sync your local clone to its parent github repo."
         ),
         formatter_class=ArgumentDefaultsHelpFormatter)
     parser.add_argument('-b', '--branch', help='name of the branch to sync',
