@@ -2,11 +2,13 @@ github-sync-fork-script
 =======================
 
 Python script to sync your github fork to its parent repository.
+Additional script that reads from a yaml and sync's the fork and desired branches.
 
 ## Installation
 
 * Clone the repository.
 * Put the script gsync.py on your path. In Windows you would probably place it on the root of your python folder (which in most cases is already in the path), somewhere like `C:\Python27`. That way the script would be callable from any folder.
+* Put the script gsync_forks.py on your path.  Use the sample yaml file to provide repos and branches to sync.
 
 ## Usage
 

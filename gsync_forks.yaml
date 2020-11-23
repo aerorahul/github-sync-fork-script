@@ -1,0 +1,4 @@
+- url: https://github.com/aerorahul/ufs-weather-model
+  branches: [develop]
+- url: https://github.com/aerorahul/hpc-stack
+  branches: [main, develop]
